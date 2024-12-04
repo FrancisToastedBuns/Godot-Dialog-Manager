@@ -1,0 +1,8 @@
+res://default_env.tres
+res://Scenes/Template.tscn
+res://Scripts/Ink_handler.gd
+res://examples/scenes/main.tscn
+res://examples/scenes/crime_scene.tscn
+res://Scenes/3D_Demo.tscn
+res://Scenes/Dialog_Button.tscn
+res://addons/inkgd/ink_player.gd
