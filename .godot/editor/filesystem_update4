@@ -1,5 +1,7 @@
 res://default_env.tres
-res://Scenes/Template.tscn
 res://Scripts/Ink_handler.gd
-res://Scenes/3D_Demo.tscn
-res://Scenes/Dialog_Button.tscn
+res://Sample/interaction_area.gd
+res://Scripts/Ink_handler_signals.gd
+res://Sample/Interaction-Area.tscn
+res://Sample/interaction_manager.gd
+res://Sample/InteractionManager.tscn
