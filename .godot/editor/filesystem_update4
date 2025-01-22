@@ -1,9 +1,8 @@
-res://Sample/Interaction-Module/InteractionManager.tscn
+res://Game-Modules/Interaction-Module/Interaction-Area.tscn
 res://default_env.tres
-res://Sample/Interaction-Module/Interaction-Area.tscn
-res://Scripts/Ink_handler.gd
-res://Sample/Player/Player.tscn
-res://Scenes/Template.tscn
-res://Sample/Player/player.gd
-res://Sample/Interaction-Module/interaction_area.gd
-res://Sample/Interaction-Module/interaction_manager.gd
+res://testWorld.tscn
+res://Game-Modules/NPC/NPC.tscn
+res://Game-Modules/Interaction-Module/interaction_manager.gd
+res://Game-Modules/Interaction-Module/interaction_area.gd
+res://Game-Modules/Player/Player.tscn
+res://Game-Modules/Interaction-Module/InteractionManager.tscn

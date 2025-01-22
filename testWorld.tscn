@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://bvg1fwu1ilwev"]
+[gd_scene load_steps=3 format=3 uid="uid://bvg1fwu1ilwev"]
+
+[ext_resource type="PackedScene" uid="uid://c82bw7y10a7fv" path="res://Game-Modules/Player/Player.tscn" id="1_x5xic"]
+[ext_resource type="PackedScene" uid="uid://bddblthoriox3" path="res://Game-Modules/NPC/NPC.tscn" id="2_qaufl"]
 
 [node name="TestWorld" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_x5xic")]
+
+[node name="Npc" parent="." instance=ExtResource("2_qaufl")]
+position = Vector2(564, 76)

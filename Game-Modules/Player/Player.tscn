@@ -34,13 +34,14 @@ func _process(delta):
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0jjh"]
 size = Vector2(77, 71)
 
-[node name="Player" type="Node2D"]
+[node name="Player" type="Node2D" groups=["player"]]
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 8
 script = SubResource("GDScript_5anmp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+light_mask = 8
 position = Vector2(39, 36)
 shape = SubResource("RectangleShape2D_v0jjh")
 

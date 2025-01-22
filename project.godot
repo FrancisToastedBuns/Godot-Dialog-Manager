@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DialogManager"
-run/main_scene="res://Scenes/Template.tscn"
+run/main_scene="res://testWorld.tscn"
 config/features=PackedStringArray("4.3")
 boot_splash/show_image=false
 config/icon="res://icon.png"
@@ -19,7 +19,7 @@ config/icon="res://icon.png"
 [autoload]
 
 __InkRuntime="*res://addons/inkgd/ink_runtime.gd"
-InteractionManager="*res://Sample/Interaction-Module/InteractionManager.tscn"
+InteractionManager="*res://Game-Modules/Interaction-Module/InteractionManager.tscn"
 
 [editor_plugins]
 
