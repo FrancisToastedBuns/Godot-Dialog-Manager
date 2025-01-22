@@ -1,7 +1,9 @@
+res://Sample/Interaction-Module/InteractionManager.tscn
 res://default_env.tres
+res://Sample/Interaction-Module/Interaction-Area.tscn
 res://Scripts/Ink_handler.gd
-res://Sample/interaction_area.gd
-res://Scripts/Ink_handler_signals.gd
-res://Sample/Interaction-Area.tscn
-res://Sample/interaction_manager.gd
-res://Sample/InteractionManager.tscn
+res://Sample/Player/Player.tscn
+res://Scenes/Template.tscn
+res://Sample/Player/player.gd
+res://Sample/Interaction-Module/interaction_area.gd
+res://Sample/Interaction-Module/interaction_manager.gd
