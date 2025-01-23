@@ -6,7 +6,7 @@ extends Control
 # Imports
 # ############################################################################ #
 
-var InkPlayer = load("res://addons/inkgd/ink_player.gd")
+var InkPlayerResource = load("res://addons/inkgd/ink_player.gd")
 
 
 # ############################################################################ #
@@ -15,7 +15,7 @@ var InkPlayer = load("res://addons/inkgd/ink_player.gd")
 
 # Alternatively, it could also be retrieved from the tree.
 # onready var _ink_player = $InkPlayer
-@onready var _ink_player = InkPlayer.new()
+@onready var _ink_player = InkPlayerResource.new()
 
 # ############################################################################ #
 # Lifecycle
@@ -55,7 +55,7 @@ func _story_loaded(successfully: bool):
 	_ink_player.continue_story()
 
 
-func _continued(text, tags):
+func _continued(text, _tags):
 	print(text)
 	# Here you could yield for an hypothetical signal, before continuing.
 	# yield(self, "event")

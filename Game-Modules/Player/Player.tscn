@@ -1,44 +1,16 @@
 [gd_scene load_steps=4 format=3 uid="uid://c82bw7y10a7fv"]
 
+[ext_resource type="Script" path="res://Game-Modules/Player/player.gd" id="1_htrvg"]
 [ext_resource type="Texture2D" uid="uid://blisbxahdpoci" path="res://Sprites/female_01_nervous.png" id="2_vs1dp"]
-
-[sub_resource type="GDScript" id="GDScript_5anmp"]
-script/source = "extends Area2D
-
-@export var speed = 400 # How fast the player will move (pixels/sec).
-var screen_size # Size of the game window.
-
-func _ready():
-	screen_size = get_viewport_rect().size
-
-func _process(delta):
-	var velocity = Vector2.ZERO # The player's movement vector.
-	if Input.is_action_pressed(\"move_right\"):
-		velocity.x += 1000
-	if Input.is_action_pressed(\"move_left\"):
-		velocity.x -= 1000
-	if Input.is_action_pressed(\"move_down\"):
-		velocity.y += 1000
-	if Input.is_action_pressed(\"move_up\"):
-		velocity.y -= 1000
-	position += velocity * delta
-	position = position.clamp(Vector2.ZERO, screen_size)
-
-	if velocity.length() > 0:
-		velocity = velocity.normalized() * speed
-		pass
-	else:
-		pass
-"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0jjh"]
 size = Vector2(77, 71)
 
-[node name="Player" type="Node2D" groups=["player"]]
+[node name="Player" type="Node2D"]
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 8
-script = SubResource("GDScript_5anmp")
+script = ExtResource("1_htrvg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 light_mask = 8

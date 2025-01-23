@@ -2,12 +2,12 @@
 
 extends Control
 
-var InkPlayer = load("res://addons/inkgd/ink_player.gd")
+var InkPlayerResource = load("res://addons/inkgd/ink_player.gd")
 @onready var choice_btn = load("res://Scenes/Dialog_Button.tscn")
 @onready var f_happy_icon = load("res://Sprites/female_01_smile.png")
 @onready var f_neutral_icon = load("res://Sprites/female_01_neutral.png")
 
-var _ink_player = InkPlayer.new()
+var _ink_player = InkPlayerResource.new()
 @onready var _btn = []
 
 func _ready():
@@ -57,7 +57,7 @@ func _continue_story():
 func _index_choose(button):
 	var index = _btn.find(button)
 	if index != -1:
-		_select_choice(index)		
+		_select_choice(index)
 
 
 func _select_choice(index):
@@ -66,7 +66,7 @@ func _select_choice(index):
 		_btn.erase(button)
 	_ink_player.choose_choice_index(index)
 	_continue_story()
-	
+
 func _close_btn():
 	$ColorRect.visible = false
 	$Male.visible = false

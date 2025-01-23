@@ -466,7 +466,6 @@ func switch_to_default_flow() -> void:
 	if _story == null:
 		_push_null_story_error()
 		return
-
 	_story.switch_to_default_flow()
 
 
