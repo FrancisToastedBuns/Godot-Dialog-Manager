@@ -1,0 +1,1 @@
+VAR Money = 0 

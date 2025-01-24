@@ -1,8 +1,0 @@
-res://default_env.tres
-res://Game-Modules/Player/Player.tscn
-res://Game-Modules/NPC/NPC.tscn
-res://testWorld.tscn
-res://addons/inkgd/ink_player.gd
-res://Game-Modules/Player/player.gd
-res://Scripts/Ink_handler_signals.gd
-res://Scripts/Ink_handler.gd

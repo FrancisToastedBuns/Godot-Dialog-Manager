@@ -1,0 +1,14 @@
+[remap]
+
+importer="inkgd.ink"
+type="Resource"
+uid="uid://8phl2eqv6dbg"
+path="res://.godot/imported/test.ink-01d48d29432753129ed0090e7a99e99b.res"
+
+[deps]
+
+source_file="res://Game-Modules/DialogModule/data/test.ink"
+dest_files=["res://.godot/imported/test.ink-01d48d29432753129ed0090e7a99e99b.res"]
+
+[params]
+

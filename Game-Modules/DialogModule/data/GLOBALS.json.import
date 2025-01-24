@@ -1,0 +1,15 @@
+[remap]
+
+importer="inkgd.ink.json"
+type="Resource"
+uid="uid://ctoeg7766in46"
+path="res://.godot/imported/GLOBALS.json-ef540181084e688727b269874296bded.res"
+
+[deps]
+
+source_file="res://Game-Modules/DialogModule/data/GLOBALS.json"
+dest_files=["res://.godot/imported/GLOBALS.json-ef540181084e688727b269874296bded.res"]
+
+[params]
+
+compress=true

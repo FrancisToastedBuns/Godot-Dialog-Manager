@@ -1,0 +1,14 @@
+[remap]
+
+importer="inkgd.ink"
+type="Resource"
+uid="uid://dj8ycdaytqeuy"
+path="res://.godot/imported/GLOBALS.ink-5c24eac201e5c0d7b2d988481be6ab08.res"
+
+[deps]
+
+source_file="res://Game-Modules/DialogModule/data/GLOBALS.ink"
+dest_files=["res://.godot/imported/GLOBALS.ink-5c24eac201e5c0d7b2d988481be6ab08.res"]
+
+[params]
+
